@@ -18,12 +18,12 @@ loop do
         gender = "sorry i cant understand"
         puts "i am sorry ?"
     end
-     puts 'phone: '
-        phone = gets.chomp
-    end
+    puts 'phone: '
+    phone = gets.chomp
     
     students << {name: name, phone_number: phone , gender: gender}
-    
+        
     students.each do |s|
         puts s
     end
+end
